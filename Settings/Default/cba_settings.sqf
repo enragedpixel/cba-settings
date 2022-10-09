@@ -57,15 +57,15 @@ force MEU_Slipspace_Offset_Frigate = 180;
 force MEU_Stealth_AI_Decloak_Distance = 20;
 
 // A3TI
-A3TI_ACE_JAVELIN = true;
-A3TI_ALLOW_TANK_DRIVER = true;
-A3TI_ALLOW_VANILLA_TI = true;
-A3TI_ENABLE_ZEUS = true;
-A3TI_HD_VISION_FIGHTER = true;
-A3TI_HD_VISION_LANDVEH = true;
-A3TI_HD_VISION_SHIP = true;
-A3TI_HD_VISION_UAV = true;
-A3TI_REMOVE_FILMGRAIN_RHS = true;
+force A3TI_ACE_JAVELIN = true;
+force A3TI_ALLOW_TANK_DRIVER = true;
+force A3TI_ALLOW_VANILLA_TI = true;
+force A3TI_ENABLE_ZEUS = true;
+force A3TI_HD_VISION_FIGHTER = true;
+force A3TI_HD_VISION_LANDVEH = true;
+force A3TI_HD_VISION_SHIP = true;
+force A3TI_HD_VISION_UAV = true;
+force A3TI_REMOVE_FILMGRAIN_RHS = true;
 
 // ACE Advanced Ballistics
 force ace_advanced_ballistics_ammoTemperatureEnabled = true;
@@ -121,7 +121,7 @@ ace_casings_maxCasings = 250;
 force ace_common_allowFadeMusic = true;
 force force ace_common_checkPBOsAction = 2;
 force force ace_common_checkPBOsCheckAll = true;
-force force ace_common_checkPBOsWhitelist = "[""cba_settings_userconfig"", ""bettinv_main_ace"", ""A3TI"", ""ASAAYU_ACE_MEDICAL_ASSISTANT"", ""athena"", ""bettinv_main"", ""CHTR_TFAR_Setter"", ""CrowsZA"", ""Darth_Potatos_Building_Templates"", ""DIS_Enhanced_Gps"", ""DIS_enhanced_map_ace"", ""DNI_ZeusFPSMonitor"", ""DXX_COMPS"", ""jsrs_soundmod_boats"", ""jsrs_soundmod_bullethits"", ""jsrs_soundmod_complete_edition_soundfiles"", ""jsrs_soundmod_complete_edition"", ""jsrs_soundmod_environment"", ""jsrs_soundmod_explosions"", ""jsrs_soundmod_framework"", ""jsrs_soundmod_helicopters"", ""jsrs_soundmod_landvehicles"", ""jsrs_soundmod_movement"", ""jsrs_soundmod_sonic_cracks"", ""jsrs_soundmod_weapons"", ""Kimi_102_Weapons_Wipeout"", ""Kimi_HMDs_Helos"", ""Kimi_HMDs_Wipeout"", ""Kimi_UI"", ""Kimi_Weapons_Helos"", ""KKA3_ACE_Extension_Anim_A2"", ""KKA3_ACE_Extension_Anim_dire"", ""KKA3_ACE_Extension_Anim"", ""MIRA_Vehicle_Medical"", ""mrb_a3_airvisibility"", ""mrb_a3_seavesselvisibility"", ""mrb_a3_vehiclevisibility"", ""msd_fastndeadly"", ""msd_ghostrecon"", ""OPTRE_JSRS"", ""PDT_ENVG"", ""PH_TacReady"", ""PH_TacSwap"", ""PLP_LaserBeam"", ""PLP_MapTools"", ""PLP_VTOLHoverController"", ""Radio_Animations"", ""SFX_Project_Remastered"", ""tfar_ace_extended_main"", ""thinkfast"", ""UAV_Turret_Markers"", ""UPSL_aime_change_ammo"", ""UPSL_aime_group"", ""UPSL_aime_inventory"", ""UPSL_aime_uav_terminal"", ""UPSL_aime_vehicle_controls"", ""UPSL_aime_vehicle_seats"", ""UPSL_aime"", ""UTGX_Compass"", ""Webs_Footsteps"", ""WP_Mod"", ""ZEI"", ""zeus_additions_main""]";
+force force ace_common_checkPBOsWhitelist = "[""cba_settings_userconfig"", ""bettinv_main_ace"", ""A3TI"", ""ASAAYU_ACE_MEDICAL_ASSISTANT"", ""athena"", ""bettinv_main"", ""CHTR_TFAR_Setter"", ""CrowsZA"", ""Darth_Potatos_Building_Templates"", ""DIS_Enhanced_Gps"", ""DIS_enhanced_map_ace"", ""DNI_ZeusFPSMonitor"", ""DXX_COMPS"", ""jsrs_soundmod_boats"", ""jsrs_soundmod_bullethits"", ""jsrs_soundmod_complete_edition_soundfiles"", ""jsrs_soundmod_complete_edition"", ""jsrs_soundmod_environment"", ""jsrs_soundmod_explosions"", ""jsrs_soundmod_framework"", ""jsrs_soundmod_helicopters"", ""jsrs_soundmod_landvehicles"", ""jsrs_soundmod_movement"", ""jsrs_soundmod_sonic_cracks"", ""jsrs_soundmod_weapons"", ""Kimi_102_Weapons_Wipeout"", ""Kimi_HMDs_Helos"", ""Kimi_HMDs_Wipeout"", ""Kimi_UI"", ""Kimi_Weapons_Helos"", ""KKA3_ACE_Extension_Anim_A2"", ""KKA3_ACE_Extension_Anim_dire"", ""KKA3_ACE_Extension_Anim"", ""MIRA_Vehicle_Medical"", ""mrb_a3_airvisibility"", ""mrb_a3_seavesselvisibility"", ""mrb_a3_vehiclevisibility"", ""msd_fastndeadly"", ""msd_ghostrecon"", ""OPTRE_JSRS"", ""PDT_ENVG"", ""PH_TacReady"", ""PH_TacSwap"", ""PLP_LaserBeam"", ""PLP_MapTools"", ""PLP_VTOLHoverController"", ""Radio_Animations"", ""SFX_Project_Remastered"", ""tfar_ace_extended_main"", ""thinkfast"", ""UAV_Turret_Markers"", ""UPSL_aime_change_ammo"", ""UPSL_aime_group"", ""UPSL_aime_inventory"", ""UPSL_aime_uav_terminal"", ""UPSL_aime_vehicle_controls"", ""UPSL_aime_vehicle_seats"", ""UPSL_aime"", ""UTGX_Compass"", ""Webs_Footsteps"", ""WP_Mod"", ""ZEI"", ""zeus_additions_main"", ""compositions_a3"", ""viewDistance_TAW"", ""ZECCUP"", ""3denEnhanced"", ""dwyl_main"", ""rwyl_main""]";
 ace_common_displayTextColor = [0,0,0,0.1];
 ace_common_displayTextFontColor = [1,1,1,1];
 ace_common_epilepsyFriendlyMode = false;
@@ -340,7 +340,28 @@ ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches__grad_trenches_digEnve
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches__grad_trenches_digEnvelopeShort = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_trenches__grad_trenches_digEnvelopeVehicle = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__ace_tripod_place = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__ADDON_EXCEPT = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__addSound = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__Load_Both = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__Load_Root = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__Load_Root__Load_Both = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__Load_Root__Load_LR = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__Load_Root__Load_SR = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__Load_Root__Load_VLR = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__LR_Root = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__LR_Root__LR_Load = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__LR_Root__LR_Save = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__Save_Root = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__Save_Root__Save_LR = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__Save_Root__Save_SR = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__Save_Root__Save_VLR = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__SR_Root = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__SR_Root__SR_Load = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__SR_Root__SR_Save = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__VLR_Root = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__VLR_Root__LR_Load = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__VLR_Root__LR_Save = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__GRAD_slingHelmet_sling = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__GRAD_slingHelmet_swap = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__GRAD_slingHelmet_unsling = false;
@@ -466,26 +487,6 @@ ace_interact_menu_moveToRoot__kka3_anim__kka3_poses__kka3_pose8 = false;
 ace_interact_menu_moveToRoot__kka3_anim__kka3_poses__kka3_pose9 = false;
 ace_interact_menu_moveToRoot__Medical__ACE_Head = false;
 ace_interact_menu_moveToRoot__Medical__ACE_Head__CheckBloodPressure = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_deleteProfile = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_exportProfile = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_loadBase = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_loadBase__tfar_ace_extended_main_loadAll = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_loadBase__tfar_ace_extended_main_loadFromLRToLR = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_loadBase__tfar_ace_extended_main_loadFromLRToVLR = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_loadBase__tfar_ace_extended_main_loadFromSRAndFromLRToLR = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_loadBase__tfar_ace_extended_main_loadFromVLRToLR = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_loadBase__tfar_ace_extended_main_loadFromVLRToVLR = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_newProfile = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_resetCrewStatus = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_saveBase = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_saveBase__tfar_ace_extended_main_saveAll = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_saveBase__tfar_ace_extended_main_saveFromLRtoLR = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_saveBase__tfar_ace_extended_main_saveFromLRtoVLR = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_saveBase__tfar_ace_extended_main_saveFromVLRtoLR = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_saveBase__tfar_ace_extended_main_saveFromVLRtoVLR = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_saveBase__tfar_ace_extended_main_saveSRAndFromLRtoLR = false;
-ace_interact_menu_moveToRoot__TFAR_Radio__tfar_ace_extended_main__tfar_ace_extended_main_setCrewStatus = false;
 ace_interact_menu_moveToRoot__UPSL_aime_vehicle_seats_change_action__UPSL_aime_vehicle_seats_turnout_action = false;
 ace_interact_menu_moveToRoot__UPSL_aime_vehicle_seats_eject_action__UPSL_aime_vehicle_seats_eject_confirm_action = false;
 ace_interact_menu_moveToRoot__UPSL_aime_vehicle_seats_getout_action__UPSL_aime_vehicle_seats_eject_action = false;
@@ -727,6 +728,7 @@ force force aceP_circulation_surgicalTime = 8;
 // ACE Pharmacy - Medications
 force force aceP_circulation_aiEnableAdvanced = false;
 force force aceP_circulation_blockChance = 0;
+force aceP_circulation_coagulation = true;
 force force aceP_circulation_factorDrugs = 0;
 force force aceP_circulation_IOestablish = 3;
 force force aceP_circulation_IVdrop = 1200;
@@ -798,6 +800,13 @@ force ace_switchunits_switchToCivilian = false;
 force ace_switchunits_switchToEast = false;
 force ace_switchunits_switchToIndependent = false;
 force ace_switchunits_switchToWest = false;
+
+// ACE TFAR Radio Setter
+CHTR_TFAR_Setter_Layout = true;
+CHTR_TFAR_Setter_Shortcut = false;
+CHTR_TFAR_Setter_ShowLR = true;
+CHTR_TFAR_Setter_ShowSR = true;
+CHTR_TFAR_Setter_ShowVLR = false;
 
 // ACE Trenches
 force force ace_trenches_bigEnvelopeDigDuration = 25;
@@ -1023,6 +1032,11 @@ crowsZA_CBA_Setting_pingbox_enabled = true;
 crowsZA_CBA_Setting_pingbox_fade_duration = 300;
 crowsZA_CBA_Setting_pingbox_fade_enabled = true;
 crowsZA_CBA_Setting_pingbox_oldLimit = 600;
+crowsZA_zeus_rc_helper = true;
+crowsZA_zeus_rc_helper_color = [1,1,1,1];
+crowsZA_zeusTextLine1 = true;
+crowsZA_zeusTextLine2 = true;
+crowsZA_zeusTextLine3 = false;
 
 // DevourerKing Common
 dev_cba_damageMultiplier = 1;
@@ -1152,13 +1166,13 @@ FSN_AI_Nuke_maxRatioFriendlyEnemy = 1;
 FSN_AI_Nuke_minEnemy = 10;
 FSN_AI_Nuke_NonEnemyEnemy = 1;
 FSN_AI_Nuke_order = 0;
-force FSN_Auto_Nuking = false;
+force force FSN_Auto_Nuking = false;
 force FSN_Debug = false;
 force FSN_Fallout = true;
 
 // GRAD slingHelmet
 force GRAD_slingHelmet_additionalList = "";
-force GRAD_slingHelmet_allowAll = true;
+force force GRAD_slingHelmet_allowAll = true;
 
 // GRAD Trenches
 force force grad_trenches_functions_allowBigEnvelope = true;
@@ -1398,6 +1412,12 @@ SFX_Mapsnd = true;
 SFX_Shelshock = true;
 SFX_Suppressionsnd = true;
 
+// Ride Where You Look
+force RWYL_HopVehicleRange = 5;
+RWYL_OtherSeatsColour = [0.2,0.2,0.2,0.4];
+RWYL_SelectedSeatColour = [0.95,0.95,0.95,1];
+RWYL_ShowAllSeats = false;
+
 // Simple Craters
 force simplecraters_setting_allowGroundTextures = true;
 force simplecraters_setting_allowSmallExplosions = false;
@@ -1417,27 +1437,9 @@ Shoulder Ready Distance (in m) = "1.6";
 Swap the gun quickly without an animation process. = true;
 You can wear another weapon in the state of a pistol. = true;
 
-// TFAR - ACE Radio Setter - Extended
-tfar_ace_extended_main_airProfile = "None";
-tfar_ace_extended_main_askDeleteConfirmation = true;
-tfar_ace_extended_main_askLoadConfirmation = true;
-tfar_ace_extended_main_askOverwriteConfirmation = true;
-tfar_ace_extended_main_askSaveConfirmation = true;
-tfar_ace_extended_main_crewStatusDefault = false;
-tfar_ace_extended_main_enableAllInteractions = true;
-tfar_ace_extended_main_enableArsenalAutoSettings = true;
-tfar_ace_extended_main_enableCompatFK = true;
-tfar_ace_extended_main_enableLRInteractions = true;
-tfar_ace_extended_main_enableMountingAutoSettings = true;
-tfar_ace_extended_main_enableSRAndLRInteractions = true;
-tfar_ace_extended_main_enableSRInteractions = true;
-tfar_ace_extended_main_enableVLRInteractions = true;
-tfar_ace_extended_main_landProfile = "None";
-tfar_ace_extended_main_loadColorIcon = [1,1,1];
-
 // TFAR - Animations
 radioAnims_cba_ads = true;
-radioAnims_cba_Earpieces = "[""G_WirelessEarpiece_F""]";
+force radioAnims_cba_Earpieces = "[goggles player]";
 radioAnims_cba_main = true;
 radioAnims_cba_preference_fadak = "Vest";
 radioAnims_cba_preference_Others = "Hand";
@@ -1448,7 +1450,7 @@ radioAnims_cba_preference_PRC154 = "Hand";
 radioAnims_cba_preference_rf7800 = "Vest";
 radioAnims_cba_vehicles = false;
 radioAnims_cba_vestarmor = true;
-radioAnims_cba_vests = "[]";
+force radioAnims_cba_vests = "[vest player]";
 
 // TFAR - Clientside settings
 TFAR_curatorCamEars = false;
@@ -1483,8 +1485,8 @@ force TFAR_giveMicroDagrToSoldier = true;
 force TFAR_givePersonalRadioToRegularSoldier = false;
 force TFAR_globalRadioRangeCoef = 1;
 force TFAR_instantiate_instantiateAtBriefing = false;
-force TFAR_objectInterceptionEnabled = true;
-force TFAR_objectInterceptionStrength = 400;
+force TFAR_objectInterceptionEnabled = false;
+force TFAR_objectInterceptionStrength = 0;
 force tfar_radiocode_east = "_opfor";
 force tfar_radiocode_independent = "_independent";
 force tfar_radiocode_west = "_bluefor";
@@ -1493,10 +1495,10 @@ force TFAR_SameLRFrequenciesForSide = false;
 force TFAR_SameSRFrequenciesForSide = false;
 force TFAR_setting_defaultFrequencies_lr_east = "";
 force TFAR_setting_defaultFrequencies_lr_independent = "";
-force TFAR_setting_defaultFrequencies_lr_west = "";
+force force TFAR_setting_defaultFrequencies_lr_west = "50";
 force TFAR_setting_defaultFrequencies_sr_east = "";
 force TFAR_setting_defaultFrequencies_sr_independent = "";
-force TFAR_setting_defaultFrequencies_sr_west = "";
+force TFAR_setting_defaultFrequencies_sr_west = "45";
 force TFAR_setting_DefaultRadio_Airborne_east = "TFAR_mr6000l";
 force TFAR_setting_DefaultRadio_Airborne_Independent = "TFAR_anarc164";
 force TFAR_setting_DefaultRadio_Airborne_West = "TFAR_anarc210";
@@ -1513,7 +1515,7 @@ force TFAR_spectatorCanHearEnemyUnits = true;
 force TFAR_spectatorCanHearFriendlies = true;
 force TFAR_takingRadio = 2;
 force TFAR_Teamspeak_Channel_Password = "123";
-force tfar_terrain_interception_coefficient = 7;
+force tfar_terrain_interception_coefficient = 0;
 force TFAR_voiceCone = true;
 
 // TSP Breach
