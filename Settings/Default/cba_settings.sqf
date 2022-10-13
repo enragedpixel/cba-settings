@@ -1221,7 +1221,7 @@ IMS_ShowHealthHud = true;
 
 // Improved Melee System (Server Settings)
 force IMS_AddKnifeToUnit = false;
-force IMS_BayonetDistance = "6";
+force IMS_BayonetDistance = "2";
 force force IMS_BayonetOnAI = true;
 force force IMS_BluntWeapon = true;
 force IMS_CustomAIHEALTH = "2";
