@@ -84,7 +84,7 @@ ace_advanced_throwing_showThrowArc = true;
 
 // ACE Advanced Vehicle Damage
 force ace_vehicle_damage_enableCarDamage = false;
-force force ace_vehicle_damage_enabled = true;
+force force ace_vehicle_damage_enabled = false;
 force ace_vehicle_damage_removeAmmoDuringCookoff = true;
 
 // ACE Arsenal
@@ -508,10 +508,10 @@ force ace_repair_addSpareParts = true;
 force ace_repair_autoShutOffEngineWhenStartingRepair = false;
 force ace_repair_consumeItem_toolKit = 0;
 ace_repair_displayTextOnRepair = true;
-force ace_repair_engineerSetting_fullRepair = 2;
+force ace_repair_engineerSetting_fullRepair = 1;
 force ace_repair_engineerSetting_repair = 1;
 force ace_repair_engineerSetting_wheel = 0;
-force ace_repair_fullRepairLocation = 2;
+force ace_repair_fullRepairLocation = 3;
 force ace_repair_fullRepairRequiredItems = ["ace_repair_anyToolKit"];
 force ace_repair_locationsBoostTraining = false;
 force ace_repair_miscRepairRequiredItems = ["ace_repair_anyToolKit"];
@@ -604,7 +604,7 @@ ace_medical_gui_openAfterTreatment = true;
 force ace_medical_gui_showBloodlossEntry = true;
 force force ace_medical_ivFlowRate = 4.6;
 force ace_medical_limping = 1;
-force ace_medical_painCoefficient = 1;
+force ace_medical_painCoefficient = 0.8;
 force ace_medical_painUnconsciousChance = 0.1;
 force force ace_medical_playerDamageThreshold = 1;
 force force ace_medical_spontaneousWakeUpChance = 0.35;
