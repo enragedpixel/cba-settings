@@ -1635,7 +1635,7 @@ force usaf_serviceMenu_setting_enabled = true;
 force usaf_serviceMenu_setting_refuelTime = "100";
 force usaf_serviceMenu_setting_reloadTime = "2";
 force usaf_serviceMenu_setting_repairTime = "100";
-force usaf_serviceMenu_setting_replaceSources = false;
+force usaf_serviceMenu_setting_replaceSources = true;
 force usaf_serviceMenu_setting_selectorSearchRadius = "15";
 force usaf_setting_allow_aiFormlights = true;
 
