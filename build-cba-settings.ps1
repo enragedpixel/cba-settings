@@ -7,7 +7,10 @@ $str2 = '";'
 $addonBuilder = Join-Path (Get-ItemProperty "HKCU:\Software\Bohemia Interactive\Arma 3 Tools").path "AddonBuilder\AddonBuilder.exe"
 $publisherCmd = Join-Path (Get-ItemProperty "HKCU:\Software\Bohemia Interactive\Arma 3 Tools").path "Publisher\PublisherCmd.exe"
 $WorkshopIDs = @(
-    "2870692543"#Server1
+    "2870692543",#Server1
+    "2885856248",#Server2
+    "2885856446",#Server3
+    "2885856655" #Server4
 )
 $i = 0
 foreach($id in $WorkshopIDs)
