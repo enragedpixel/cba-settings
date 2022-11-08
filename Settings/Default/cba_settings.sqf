@@ -57,13 +57,13 @@ force MEU_Slipspace_Offset_Frigate = 180;
 force MEU_Stealth_AI_Decloak_Distance = 20;
 
 // A3TI
-force A3TI_ACE_JAVELIN = true;
-force A3TI_ALLOW_TANK_DRIVER = true;
+force A3TI_ACE_JAVELIN = false;
+force A3TI_ALLOW_TANK_DRIVER = false;
 force A3TI_ALLOW_VANILLA_TI = true;
 force A3TI_ENABLE_ZEUS = true;
-force A3TI_HD_VISION_FIGHTER = true;
+force A3TI_HD_VISION_FIGHTER = false;
 force A3TI_HD_VISION_LANDVEH = true;
-force A3TI_HD_VISION_SHIP = true;
+force A3TI_HD_VISION_SHIP = false;
 force A3TI_HD_VISION_UAV = true;
 force A3TI_REMOVE_FILMGRAIN_RHS = true;
 
@@ -121,7 +121,7 @@ ace_casings_maxCasings = 250;
 force ace_common_allowFadeMusic = true;
 force force ace_common_checkPBOsAction = 2;
 force force ace_common_checkPBOsCheckAll = true;
-force force ace_common_checkPBOsWhitelist = "[""cba_settings_userconfig"", ""bettinv_main_ace"", ""A3TI"", ""ASAAYU_ACE_MEDICAL_ASSISTANT"", ""athena"", ""bettinv_main"", ""CHTR_TFAR_Setter"", ""CrowsZA"", ""Darth_Potatos_Building_Templates"", ""DIS_Enhanced_Gps"", ""DIS_enhanced_map_ace"", ""DNI_ZeusFPSMonitor"", ""DXX_COMPS"", ""jsrs_soundmod_boats"", ""jsrs_soundmod_bullethits"", ""jsrs_soundmod_complete_edition_soundfiles"", ""jsrs_soundmod_complete_edition"", ""jsrs_soundmod_environment"", ""jsrs_soundmod_explosions"", ""jsrs_soundmod_framework"", ""jsrs_soundmod_helicopters"", ""jsrs_soundmod_landvehicles"", ""jsrs_soundmod_movement"", ""jsrs_soundmod_sonic_cracks"", ""jsrs_soundmod_weapons"", ""Kimi_102_Weapons_Wipeout"", ""Kimi_HMDs_Helos"", ""Kimi_HMDs_Wipeout"", ""Kimi_UI"", ""Kimi_Weapons_Helos"", ""KKA3_ACE_Extension_Anim_A2"", ""KKA3_ACE_Extension_Anim_dire"", ""KKA3_ACE_Extension_Anim"", ""MIRA_Vehicle_Medical"", ""mrb_a3_airvisibility"", ""mrb_a3_seavesselvisibility"", ""mrb_a3_vehiclevisibility"", ""msd_fastndeadly"", ""msd_ghostrecon"", ""OPTRE_JSRS"", ""PDT_ENVG"", ""PH_TacReady"", ""PH_TacSwap"", ""PLP_LaserBeam"", ""PLP_MapTools"", ""PLP_VTOLHoverController"", ""Radio_Animations"", ""SFX_Project_Remastered"", ""tfar_ace_extended_main"", ""thinkfast"", ""UAV_Turret_Markers"", ""UPSL_aime_change_ammo"", ""UPSL_aime_group"", ""UPSL_aime_inventory"", ""UPSL_aime_uav_terminal"", ""UPSL_aime_vehicle_controls"", ""UPSL_aime_vehicle_seats"", ""UPSL_aime"", ""UTGX_Compass"", ""Webs_Footsteps"", ""WP_Mod"", ""ZEI"", ""zeus_additions_main"", ""compositions_a3"", ""viewDistance_TAW"", ""ZECCUP"", ""3denEnhanced"", ""dwyl_main"", ""rwyl_main""]";
+force force ace_common_checkPBOsWhitelist = "[""cba_settings_userconfig"", ""bettinv_main_ace"", ""A3TI"", ""ASAAYU_ACE_MEDICAL_ASSISTANT"", ""athena"", ""bettinv_main"", ""CHTR_TFAR_Setter"", ""CrowsZA"", ""Darth_Potatos_Building_Templates"", ""DIS_Enhanced_Gps"", ""DIS_enhanced_map_ace"", ""DNI_ZeusFPSMonitor"", ""DXX_COMPS"", ""jsrs_soundmod_boats"", ""jsrs_soundmod_bullethits"", ""jsrs_soundmod_complete_edition_soundfiles"", ""jsrs_soundmod_complete_edition"", ""jsrs_soundmod_environment"", ""jsrs_soundmod_explosions"", ""jsrs_soundmod_framework"", ""jsrs_soundmod_helicopters"", ""jsrs_soundmod_landvehicles"", ""jsrs_soundmod_movement"", ""jsrs_soundmod_sonic_cracks"", ""jsrs_soundmod_weapons"", ""Kimi_102_Weapons_Wipeout"", ""Kimi_HMDs_Helos"", ""Kimi_HMDs_Wipeout"", ""Kimi_UI"", ""Kimi_Weapons_Helos"", ""KKA3_ACE_Extension_Anim_A2"", ""KKA3_ACE_Extension_Anim_dire"", ""KKA3_ACE_Extension_Anim"", ""MIRA_Vehicle_Medical"", ""mrb_a3_airvisibility"", ""mrb_a3_seavesselvisibility"", ""mrb_a3_vehiclevisibility"", ""msd_fastndeadly"", ""msd_ghostrecon"", ""OPTRE_JSRS"", ""PDT_ENVG"", ""PH_TacReady"", ""PH_TacSwap"", ""PLP_LaserBeam"", ""PLP_MapTools"", ""PLP_VTOLHoverController"", ""Radio_Animations"", ""SFX_Project_Remastered"", ""tfar_ace_extended_main"", ""thinkfast"", ""UAV_Turret_Markers"", ""UPSL_aime_change_ammo"", ""UPSL_aime_group"", ""UPSL_aime_inventory"", ""UPSL_aime_uav_terminal"", ""UPSL_aime_vehicle_controls"", ""UPSL_aime_vehicle_seats"", ""UPSL_aime"", ""UTGX_Compass"", ""Webs_Footsteps"", ""WP_Mod"", ""ZEI"", ""zeus_additions_main"", ""compositions_a3"", ""viewDistance_TAW"", ""ZECCUP"", ""3denEnhanced"", ""dwyl_main"", ""rwyl_main"", ""Vile_HUD"", ""PLP_LadderTweak"", ""hal_AutoPilot""]";
 ace_common_displayTextColor = [0,0,0,0.1];
 ace_common_displayTextFontColor = [1,1,1,1];
 ace_common_epilepsyFriendlyMode = false;
@@ -365,8 +365,14 @@ ace_interact_menu_moveToRoot__ACE_Equipment__CHTR_TFAR_Setter__VLR_Root__LR_Save
 ace_interact_menu_moveToRoot__ACE_Equipment__GRAD_slingHelmet_sling = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__GRAD_slingHelmet_swap = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__GRAD_slingHelmet_unsling = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__immersion_pops_start_cig = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__immersion_pops_stop_cig = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__immersion_pops_take_cig_from_pack = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__MRH_Ace_SATCOM_ANTENNA = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__MRH_Ace_USE_UTD = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__murshun_cigs_start_cig = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__murshun_cigs_stop_cig = false;
+ace_interact_menu_moveToRoot__ACE_Equipment__murshun_cigs_take_cig_from_pack = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__open_airburt = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__placeAED = false;
 ace_interact_menu_moveToRoot__ACE_Equipment__removeSound = false;
@@ -878,11 +884,11 @@ force ace_vehiclelock_vehicleStartingLockState = -1;
 // ACE Vehicle Medical
 MIRA_Vehicle_Medical_CacheInterval = 0.4;
 MIRA_Vehicle_Medical_EnableAVM = true;
-MIRA_Vehicle_Medical_EnableIncapacitated = true;
+MIRA_Vehicle_Medical_EnableIncapacitated = false;
 MIRA_Vehicle_Medical_EnableStable = true;
 MIRA_Vehicle_Medical_EnableUnstable = true;
 MIRA_Vehicle_Medical_Incapacitated_CanUnloadAll = true;
-MIRA_Vehicle_Medical_Incapacitated_ShowCount = true;
+MIRA_Vehicle_Medical_Incapacitated_ShowCount = false;
 MIRA_Vehicle_Medical_Stable_ShowCount = true;
 MIRA_Vehicle_Medical_Stable_ThresholdLowBP = 80;
 MIRA_Vehicle_Medical_Stable_ThresholdLowHR = 50;
@@ -1151,7 +1157,7 @@ diwako_dui_use_layout_editor = false;
 // Fawks' Enhanced NVGs
 PDT_ENVG_ACE = false;
 PDT_ENVG_Blacklist = "";
-PDT_ENVG_Effect = "wpEffect";
+PDT_ENVG_Effect = "";
 
 // Freefall Fix
 LEO_FFF_enableMod = true;
@@ -1237,51 +1243,6 @@ force IMS_RifleDodgeSet = true;
 force IMS_StealthAI_Ears = 15;
 force IMS_StealthAI_Eyes = 40;
 force IMS_WBK_CUSTOMCAMSERVER = false;
-
-// LAMBS Danger
-force lambs_danger_cqbRange = 60;
-lambs_danger_disableAIAutonomousManoeuvres = false;
-lambs_danger_disableAIDeployStaticWeapons = false;
-lambs_danger_disableAIFindStaticWeapons = false;
-lambs_danger_disableAIHideFromTanksAndAircraft = false;
-lambs_danger_disableAIPlayerGroup = false;
-lambs_danger_disableAIPlayerGroupReaction = false;
-lambs_danger_disableAutonomousFlares = false;
-lambs_danger_disableAutonomousSmokeGrenades = false;
-force lambs_danger_panicChance = 0.1;
-
-// LAMBS Danger Eventhandlers
-force lambs_eventhandlers_ExplosionEventHandlerEnabled = true;
-force lambs_eventhandlers_ExplosionReactionTime = 9;
-
-// LAMBS Danger WP
-force lambs_wp_autoAddArtillery = true;
-
-// LAMBS Main
-force lambs_main_combatShareRange = 200;
-force lambs_main_debug_drawAllUnitsInVehicles = false;
-force lambs_main_debug_Drawing = false;
-force lambs_main_debug_FSM = false;
-force lambs_main_debug_FSM_civ = false;
-force lambs_main_debug_functions = false;
-force lambs_main_debug_RenderExpectedDestination = false;
-lambs_main_disableAICallouts = false;
-lambs_main_disableAIDodge = false;
-lambs_main_disableAIFleeing = false;
-lambs_main_disableAIGestures = false;
-lambs_main_disableAutonomousMunitionSwitching = false;
-lambs_main_disablePlayerGroupSuppression = false;
-force lambs_main_indoorMove = 0.1;
-force lambs_main_maxRevealValue = 1;
-force lambs_main_minFriendlySuppressionDistance = 5;
-force lambs_main_minObstacleProximity = 5;
-force lambs_main_minSuppressionRange = 50;
-force lambs_main_radioBackpack = 2000;
-lambs_main_radioDisabled = false;
-force lambs_main_radioEast = 500;
-force lambs_main_radioGuer = 500;
-force lambs_main_radioShout = 100;
-force lambs_main_radioWest = 500;
 
 // MRHSatellite Options
 force MRH_SAT_allowFullscreen = true;
@@ -1403,8 +1364,9 @@ force dev_flood_infection_maxDistance = 2000;
 force dev_flood_infection_specialChance = 0.1;
 
 // Project SFX: Remastered
-SFX_Breathsnd = false;
+SFX_Breathsnd = true;
 force SFX_FemaleFacesArraySetting = "['F_clair','F_jill','B_female_bun_01','B_female_bun_02','B_female_bun_03','B_female_bun_04','fsof_femaleCauc01_BlueEyes_NoHair','fsof_femaleCauc01_BrownEyes_NoHair','fsof_femaleCauc01_GreenEyes_NoHair','fsof_femaleCauc01_HazelEyes_NoHair','fsof_femaleCauc01_BlueEyes_Bun_BlondeHair','fsof_femaleCauc01_BrownEyes_Bun_BlondeHair','fsof_femaleCauc01_GreenEyes_Bun_BlondeHair','fsof_femaleCauc01_HazelEyes_Bun_BlondeHair','fsof_femaleCauc01_BlueEyes_Bun_LBrownHair','fsof_femaleCauc01_BrownEyes_Bun_LBrownHair','fsof_femaleCauc01_GreenEyes_Bun_LBrownHair','fsof_femaleCauc01_HazelEyes_Bun_LBrownHair','fsof_femaleCauc01_BlueEyes_Bun_BrownHair','fsof_femaleCauc01_BrownEyes_Bun_BrownHair','fsof_femaleCauc01_GreenEyes_Bun_BrownHair','fsof_femaleCauc01_HazelEyes_Bun_BrownHair','fsof_femaleCauc01_BlueEyes_Bun_BlackHair','fsof_femaleCauc01_BrownEyes_Bun_BlackHair','fsof_femaleCauc01_GreenEyes_Bun_BlackHair','fsof_femaleCauc01_HazelEyes_Bun_BlackHair','fsof_femaleCauc01t2_BlueEyes_NoHair','fsof_femaleCauc01t2_BrownEyes_NoHair','fsof_femaleCauc01t2_GreenEyes_NoHair','fsof_femaleCauc01t2_HazelEyes_NoHair','fsof_FemaleCauc01t2_BlueEyes_Bun_BlondeHair','fsof_FemaleCauc01t2_BrownEyes_Bun_BlondeHair','fsof_FemaleCauc01t2_GreenEyes_Bun_BlondeHair','fsof_FemaleCauc01t2_HazelEyes_Bun_BlondeHair','fsof_FemaleCauc01t2_BlueEyes_Bun_LBrownHair','fsof_FemaleCauc01t2_BrownEyes_Bun_LBrownHair','fsof_FemaleCauc01t2_GreenEyes_Bun_LBrownHair','fsof_FemaleCauc01t2_HazelEyes_Bun_LBrownHair','fsof_FemaleCauc01t2_BlueEyes_Bun_BrownHair','fsof_FemaleCauc01t2_BrownEyes_Bun_BrownHair','fsof_FemaleCauc01t2_GreenEyes_Bun_BrownHair','fsof_FemaleCauc01t2_HazelEyes_Bun_BrownHair','fsof_FemaleCauc01t2_BlueEyes_Bun_BlackHair','fsof_FemaleCauc01t2_BrownEyes_Bun_BlackHair','fsof_FemaleCauc01t2_GreenEyes_Bun_BlackHair','fsof_FemaleCauc01t2_HazelEyes_Bun_BlackHair','fsof_FemaleCauc01t3_BlueEyes_NoHair','fsof_FemaleCauc01t3_BrownEyes_NoHair','fsof_FemaleCauc01t3_GreenEyes_NoHair','fsof_FemaleCauc01t3_HazelEyes_NoHair','fsof_FemaleCauc01t3_BlueEyes_Bun_BlondeHair','fsof_FemaleCauc01t3_BrownEyes_Bun_BlondeHair','fsof_FemaleCauc01t3_GreenEyes_Bun_BlondeHair','fsof_FemaleCauc01t3_HazelEyes_Bun_BlondeHair','fsof_FemaleCauc01t3_BlueEyes_Bun_LBrownHair','fsof_FemaleCauc01t3_BrownEyes_Bun_LBrownHair','fsof_FemaleCauc01t3_GreenEyes_Bun_LBrownHair','fsof_FemaleCauc01t3_HazelEyes_Bun_LBrownHair','fsof_FemaleCauc01t3_BlueEyes_Bun_BrownHair','fsof_FemaleCauc01t3_BrownEyes_Bun_BrownHair','fsof_FemaleCauc01t3_GreenEyes_Bun_BrownHair','fsof_FemaleCauc01t3_HazelEyes_Bun_BrownHair','fsof_FemaleCauc01t3_BlueEyes_Bun_BlackHair','fsof_FemaleCauc01t3_BrownEyes_Bun_BlackHair','fsof_FemaleCauc01t3_GreenEyes_Bun_BlackHair','fsof_FemaleCauc01t3_HazelEyes_Bun_BlackHair','fsof_FemaleCauc01t4_BlueEyes_NoHair','fsof_FemaleCauc01t4_BrownEyes_NoHair','fsof_FemaleCauc01t4_GreenEyes_NoHair','fsof_FemaleCauc01t4_HazelEyes_NoHair','fsof_FemaleCauc01t4_BlueEyes_Bun_BlondeHair','fsof_FemaleCauc01t4_BrownEyes_Bun_BlondeHair','fsof_FemaleCauc01t4_GreenEyes_Bun_BlondeHair','fsof_FemaleCauc01t4_HazelEyes_Bun_BlondeHair','fsof_FemaleCauc01t4_BlueEyes_Bun_LBrownHair','fsof_FemaleCauc01t4_BrownEyes_Bun_LBrownHair','fsof_FemaleCauc01t4_GreenEyes_Bun_LBrownHair','fsof_FemaleCauc01t4_HazelEyes_Bun_LBrownHair','fsof_FemaleCauc01t4_BlueEyes_Bun_BrownHair','fsof_FemaleCauc01t4_BrownEyes_Bun_BrownHair','fsof_FemaleCauc01t4_GreenEyes_Bun_BrownHair','fsof_FemaleCauc01t4_HazelEyes_Bun_BrownHair','fsof_FemaleCauc01t4_BlueEyes_Bun_BlackHair','fsof_FemaleCauc01t4_BrownEyes_Bun_BlackHair','fsof_FemaleCauc01t4_GreenEyes_Bun_BlackHair','fsof_FemaleCauc01t4_HazelEyes_Bun_BlackHair','fsof_femaleCauc02_BlueEyes_NoHair','fsof_femaleCauc02_BrownEyes_NoHair','fsof_femaleCauc02_GreenEyes_NoHair','fsof_femaleCauc02_HazelEyes_NoHair','fsof_femaleCauc02_BlueEyes_Bun_BlondeHair','fsof_femaleCauc02_BrownEyes_Bun_BlondeHair','fsof_femaleCauc02_GreenEyes_Bun_BlondeHair','fsof_femaleCauc02_HazelEyes_Bun_BlondeHair','fsof_femaleCauc02_BlueEyes_Bun_LBrownHair','fsof_femaleCauc02_BrownEyes_Bun_LBrownHair','fsof_femaleCauc02_GreenEyes_Bun_LBrownHair','fsof_femaleCauc02_HazelEyes_Bun_LBrownHair','fsof_femaleCauc02_BlueEyes_Bun_BrownHair','fsof_femaleCauc02_BrownEyes_Bun_BrownHair','fsof_femaleCauc02_GreenEyes_Bun_BrownHair','fsof_femaleCauc02_HazelEyes_Bun_BrownHair','fsof_femaleCauc02_BlueEyes_Bun_BlackHair','fsof_femaleCauc02_BrownEyes_Bun_BlackHair','fsof_femaleCauc02_GreenEyes_Bun_BlackHair','fsof_femaleCauc02_HazelEyes_Bun_BlackHair','fsof_femaleCauc02t2_BlueEyes_NoHair','fsof_femaleCauc02t2_BrownEyes_NoHair','fsof_femaleCauc02t2_GreenEyes_NoHair','fsof_femaleCauc02t2_HazelEyes_NoHair','fsof_femaleCauc02t2_BlueEyes_Bun_BlondeHair','fsof_femaleCauc02t2_BrownEyes_Bun_BlondeHair','fsof_femaleCauc02t2_GreenEyes_Bun_BlondeHair','fsof_femaleCauc02t2_HazelEyes_Bun_BlondeHair','fsof_femaleCauc02t2_BlueEyes_Bun_LBrownHair','fsof_femaleCauc02t2_BrownEyes_Bun_LBrownHair','fsof_femaleCauc02t2_GreenEyes_Bun_LBrownHair','fsof_femaleCauc02t2_HazelEyes_Bun_LBrownHair','fsof_femaleCauc02t2_BlueEyes_Bun_BrownHair','fsof_femaleCauc02t2_BrownEyes_Bun_BrownHair','fsof_femaleCauc02t2_GreenEyes_Bun_BrownHair','fsof_femaleCauc02t2_HazelEyes_Bun_BrownHair','fsof_femaleCauc02t2_BlueEyes_Bun_BlackHair','fsof_femaleCauc02t2_BrownEyes_Bun_BlackHair','fsof_femaleCauc02t2_GreenEyes_Bun_BlackHair','fsof_femaleCauc02t2_HazelEyes_Bun_BlackHair','fsof_femaleCauc02t3_BlueEyes_NoHair','fsof_femaleCauc02t3_BrownEyes_NoHair','fsof_femaleCauc02t3_GreenEyes_NoHair','fsof_femaleCauc02t3_HazelEyes_NoHair','fsof_femaleCauc02t3_BlueEyes_Bun_BlondeHair','fsof_femaleCauc02t3_BrownEyes_Bun_BlondeHair','fsof_femaleCauc02t3_GreenEyes_Bun_BlondeHair','fsof_femaleCauc02t3_HazelEyes_Bun_BlondeHair','fsof_femaleCauc02t3_BlueEyes_Bun_LBrownHair','fsof_femaleCauc02t3_BrownEyes_Bun_LBrownHair','fsof_femaleCauc02t3_GreenEyes_Bun_LBrownHair','fsof_femaleCauc02t3_HazelEyes_Bun_LBrownHair','fsof_femaleCauc02t3_BlueEyes_Bun_BrownHair','fsof_femaleCauc02t3_BrownEyes_Bun_BrownHair','fsof_femaleCauc02t3_GreenEyes_Bun_BrownHair','fsof_femaleCauc02t3_HazelEyes_Bun_BrownHair','fsof_femaleCauc02t3_BlueEyes_Bun_BlackHair','fsof_femaleCauc02t3_BrownEyes_Bun_BlackHair','fsof_femaleCauc02t3_GreenEyes_Bun_BlackHair','fsof_femaleCauc02t3_HazelEyes_Bun_BlackHair','fsof_femaleCauc02t4_BlueEyes_NoHair','fsof_femaleCauc02t4_BrownEyes_NoHair','fsof_femaleCauc02t4_GreenEyes_NoHair','fsof_femaleCauc02t4_HazelEyes_NoHair','fsof_femaleCauc02t4_BlueEyes_Bun_BlondeHair','fsof_femaleCauc02t4_BrownEyes_Bun_BlondeHair','fsof_femaleCauc02t4_GreenEyes_Bun_BlondeHair','fsof_femaleCauc02t4_HazelEyes_Bun_BlondeHair','fsof_femaleCauc02t4_BlueEyes_Bun_LBrownHair','fsof_femaleCauc02t4_BrownEyes_Bun_LBrownHair','fsof_femaleCauc02t4_GreenEyes_Bun_LBrownHair','fsof_femaleCauc02t4_HazelEyes_Bun_LBrownHair','fsof_femaleCauc02t4_BlueEyes_Bun_BrownHair','fsof_femaleCauc02t4_BrownEyes_Bun_BrownHair','fsof_femaleCauc02t4_GreenEyes_Bun_BrownHair','fsof_femaleCauc02t4_HazelEyes_Bun_BrownHair','fsof_femaleCauc02t4_BlueEyes_Bun_BlackHair','fsof_femaleCauc02t4_BrownEyes_Bun_BlackHair','fsof_femaleCauc02t4_GreenEyes_Bun_BlackHair','fsof_femaleCauc02t4_HazelEyes_Bun_BlackHair','fsof_femaleBlk01_HazelEyes_BlkHair','fsof_femaleBlk01_BrownEyes_BlkHair','fsof_femaleBlk01_BrownEyes_NoHair','fsof_femaleBlk01_HazelEyes_NoHair','fsof_femaleAsi01_BrownEyes_BlkHair','fsof_femaleAsi01_BrownEyes_NoHair','TCGM_Fem_Gonzalez','TCGM_Fem_Fox','TCGM_Fem_FoxBun','TCGM_Fem_Fenty','TCGM_Fem_Liu','TCGM_Fem_Zhu','TCGM_Fem_Stone','TCGM_Fem_StoneBun','TCGM_Fem_Eilish','TCGM_Fem_EilishBun','TCGM_Fem_Portman','TCGM_Fem_Ayres','TCGM_Fem_Hobson','TCGM_Fem_Lynch','TCGM_MakF_FoxClub1','TCGM_MakF_FoxClub2','TCGM_MakF_FoxGothic1','TCGM_MakF_FoxViking1','TCGM_MakF_FoxPunk1','TCGM_MakF_FoxCommand','TCGM_MakF_FoxQuiet','TCGM_MakF_GonzalezClub1','TCGM_MakF_GonzalezClub2','TCGM_MakF_GonzalezGothic1','TCGM_MakF_GonzalezViking1','TCGM_MakF_GonzalezPunk1','TCGM_MakF_GonzalezCommand','TCGM_MakF_GonzalezQuiet','TCGM_MakF_FentyClub1','TCGM_MakF_FentyClub2','TCGM_MakF_FentyGothic1','TCGM_MakF_FentyViking1','TCGM_MakF_FentyPunk1','TCGM_MakF_FentyCommand','TCGM_MakF_FentyQuiet','TCGM_MakF_LiuClub1','TCGM_MakF_LiuClub2','TCGM_MakF_LiuGothic1','TCGM_MakF_LiuViking1','TCGM_MakF_LiuPunk1','TCGM_MakF_LiuCommand','TCGM_MakF_LiuQuiet','TCGM_MakF_StoneClub1','TCGM_MakF_StoneClub2','TCGM_MakF_StoneGothic1','TCGM_MakF_StoneViking1','TCGM_MakF_StonePunk1','TCGM_MakF_StoneCommand','TCGM_MakF_StoneQuiet','TCGM_MakF_EilishClub1','TCGM_MakF_EilishClub2','TCGM_MakF_EilishGothic1','TCGM_MakF_EilishViking1','TCGM_MakF_EilishPunk1','TCGM_MakF_EilishCommand','TCGM_MakF_EilishQuiet','TCGM_MakF_PortmanClub1','TCGM_MakF_PortmanClub2','TCGM_MakF_PortmanGothic1','TCGM_MakF_PortmanViking1','TCGM_MakF_PortmanPunk1','TCGM_MakF_PortmanCommand','TCGM_MakF_PortmanQuiet','TCGM_MakF_AyresClub1','TCGM_MakF_AyresClub2','TCGM_MakF_AyresGothic1','TCGM_MakF_AyresViking1','TCGM_MakF_AyresPunk1','TCGM_MakF_AyresCommand','TCGM_MakF_AyresQuiet','TCGM_MakF_HobsonClub1','TCGM_MakF_HobsonClub2','TCGM_MakF_HobsonGothic1','TCGM_MakF_HobsonViking1','TCGM_MakF_HobsonPunk1','TCGM_MakF_HobsonCommand','TCGM_MakF_HobsonQuiet','TCGM_MakF_ZhuClub1','TCGM_MakF_ZhuClub2','TCGM_MakF_ZhuGothic1','TCGM_MakF_ZhuViking1','TCGM_MakF_ZhuPunk1','TCGM_MakF_ZhuCommand','TCGM_MakF_ZhuQuiet','TCGM_MakF_LynchClub1','TCGM_MakF_LynchClub2','TCGM_MakF_LynchGothic1','TCGM_MakF_LynchViking1','TCGM_MakF_LynchPunk1','TCGM_MakF_LynchCommand','TCGM_MakF_LynchQuiet','ZEPHIK_Female_face_1','Smith_v2','Tyler','Oakes_v2', 'Mason_v2','Arnott','Arnott_h','Mason','Mason_h','Oakes','Oakes_h','Smith','Smith_h', 'max_female1','max_female2','max_female3','max_female4','max_female5','max_female6','max_female7','max_female8','max_female9','max_female10','max_female11','max_female12','max_female13','max_female14','max_female15','Fem_1','Fem_2','Fem_3','Fem_4','Fem_5','Fem_6','Fem_7','Fem_8','Fem_9','Fem_3B','Fem_5B','Fem_7B','Fem_A','Fem_B','Fem_C','Fem_D','Fem_E','Fem_F']";
+SFX_Head = true;
 SFX_HoD = true;
 SFX_Inventory = true;
 SFX_IronSights = true;
@@ -1416,7 +1378,7 @@ SFX_Suppressionsnd = true;
 force RWYL_HopVehicleRange = 5;
 RWYL_OtherSeatsColour = [0.2,0.2,0.2,0.4];
 RWYL_SelectedSeatColour = [0.95,0.95,0.95,1];
-RWYL_ShowAllSeats = false;
+RWYL_ShowAllSeats = true;
 
 // Simple Craters
 force simplecraters_setting_allowGroundTextures = true;
@@ -1427,7 +1389,7 @@ force simplecraters_setting_debugMode = false;
 // Tactical Position Ready Options
 Animation for automatic wall avoidance = 0;
 Change the position recovery from left click to right click. = false;
-Enable automatic wall avoidance. = false;
+Enable automatic wall avoidance. = true;
 In Ready state, place your hand on an ally's shoulder. = true;
 Lookahead for corner detection (in m) = "0.2";
 Shoulder Ready Angle = "65";
@@ -1435,11 +1397,11 @@ Shoulder Ready Distance (in m) = "1.6";
 
 // Tactical Weapon Swap Option
 Swap the gun quickly without an animation process. = true;
-You can wear another weapon in the state of a pistol. = true;
+You can wear another weapon in the state of a pistol. = false;
 
 // TFAR - Animations
 radioAnims_cba_ads = true;
-force radioAnims_cba_Earpieces = "[goggles player]";
+radioAnims_cba_Earpieces = "[""G_WirelessEarpiece_F""]";
 radioAnims_cba_main = true;
 radioAnims_cba_preference_fadak = "Vest";
 radioAnims_cba_preference_Others = "Hand";
@@ -1448,9 +1410,9 @@ radioAnims_cba_preference_PRC148 = "Hand";
 radioAnims_cba_preference_PRC152 = "Vest";
 radioAnims_cba_preference_PRC154 = "Hand";
 radioAnims_cba_preference_rf7800 = "Vest";
-radioAnims_cba_vehicles = false;
+radioAnims_cba_vehicles = true;
 radioAnims_cba_vestarmor = true;
-force radioAnims_cba_vests = "[vest player]";
+radioAnims_cba_vests = "[]";
 
 // TFAR - Clientside settings
 TFAR_curatorCamEars = false;
@@ -1613,7 +1575,7 @@ force tts_beam_vaporiseBodies = true;
 
 // Turret Enhanced
 Fat_Lurch_Grid = true;
-Fat_Lurch_GridNum = 8;
+Fat_Lurch_GridNum = 6;
 Fat_Lurch_MapSlew = true;
 Fat_Lurch_Markers = true;
 Fat_Lurch_Measure = true;
@@ -1640,7 +1602,7 @@ force usaf_serviceMenu_setting_selectorSearchRadius = "15";
 force usaf_setting_allow_aiFormlights = true;
 
 // White Phosphor
-Fat_Lurch_UseWP = false;
+Fat_Lurch_UseWP = true;
 
 // Zeus Additions
 zeus_additions_main_AABLU_mags = "[""rhs_fim92_mag"",""Titan_AA""]";
@@ -1737,7 +1699,6 @@ zen_faction_filter_0_OPF_R_F = true;
 zen_faction_filter_0_OPF_T_F = true;
 zen_faction_filter_0_OPTRE_FC_Covenant = true;
 zen_faction_filter_0_OPTRE_Ins = true;
-zen_faction_filter_0_SZ_Elf_rebels = true;
 zen_faction_filter_0_TCF_ER = true;
 zen_faction_filter_0_TCF_Frieden = true;
 zen_faction_filter_0_TCF_Frieden_AUT = true;
@@ -1760,6 +1721,7 @@ zen_faction_filter_0_TCF_URA_urb = true;
 zen_faction_filter_0_TCF_URA_win = true;
 zen_faction_filter_0_TCF_URF = true;
 zen_faction_filter_0_TCF_Zeus_Spacer_groups = true;
+zen_faction_filter_0_V_FZ_EdCat_URF = true;
 zen_faction_filter_0_WBK_AI = true;
 zen_faction_filter_0_WBK_AI_Melee = true;
 zen_faction_filter_1_ = true;
@@ -1809,24 +1771,32 @@ zen_faction_filter_2_IND_G_F = true;
 zen_faction_filter_2_IND_L_F = true;
 zen_faction_filter_2_LM_OPCAN_CMA_groups = true;
 zen_faction_filter_2_LM_OPCAN_CPD_groups = true;
+zen_faction_filter_2_MEU_cat_A = true;
 zen_faction_filter_2_MEU_cat_FR = true;
 zen_faction_filter_2_MEU_CMA = true;
 zen_faction_filter_2_MEU_CPF = true;
 zen_faction_filter_2_MEU_Oni = true;
 zen_faction_filter_2_MEU_SPF = true;
+zen_faction_filter_2_MEU_URF = true;
+zen_faction_filter_2_MEU_URF_BJ_URB = true;
+zen_faction_filter_2_MEU_URF_BJ_WDL = true;
 zen_faction_filter_2_MEU_WR_DES = true;
 zen_faction_filter_2_MEU_WR_WDL = true;
+zen_faction_filter_2_OPTRE_CAA = true;
+zen_faction_filter_2_OPTRE_Ins = true;
+zen_faction_filter_2_OPTRE_PD = true;
+zen_faction_filter_2_OPTRE_UEG_Civ = true;
 zen_faction_filter_2_TCF_CMA = true;
 zen_faction_filter_2_TCF_CPF = true;
+zen_faction_filter_2_TCF_ER = true;
 zen_faction_filter_2_TCF_SG_DES = true;
 zen_faction_filter_2_TCF_SG_SNO = true;
 zen_faction_filter_2_TCF_SG_WDL = true;
-zen_faction_filter_2_TCF_SPF = true;
+zen_faction_filter_2_TCF_URF = true;
 zen_faction_filter_2_TCF_VM = true;
 zen_faction_filter_2_TCF_WR_DES = true;
 zen_faction_filter_2_TCF_WR_WDL = true;
 zen_faction_filter_2_TCF_Zeus_Spacer_groups = true;
-zen_faction_filter_2_V_FZ_CPD = true;
 zen_faction_filter_3_CIV_F = true;
 zen_faction_filter_3_CIV_IDAP_F = true;
 zen_faction_filter_3_EdCat_jbad_vehicles = true;
@@ -1836,3 +1806,4 @@ zen_faction_filter_3_OPTRE_UEG_Civ = true;
 zen_faction_filter_3_TCF_AAN = true;
 zen_faction_filter_3_TCF_ISN = true;
 zen_faction_filter_3_TCF_Zeus_Spacer = true;
+zen_faction_filter_3_V_FZ_EdCat_CIV = true;
