@@ -121,7 +121,7 @@ ace_casings_maxCasings = 250;
 force ace_common_allowFadeMusic = true;
 force force ace_common_checkPBOsAction = 2;
 force force ace_common_checkPBOsCheckAll = true;
-force force ace_common_checkPBOsWhitelist = "[""cba_settings_userconfig"", ""bettinv_main_ace"", ""A3TI"", ""ASAAYU_ACE_MEDICAL_ASSISTANT"", ""athena"", ""bettinv_main"", ""CHTR_TFAR_Setter"", ""CrowsZA"", ""Darth_Potatos_Building_Templates"", ""DIS_Enhanced_Gps"", ""DIS_enhanced_map_ace"", ""DNI_ZeusFPSMonitor"", ""DXX_COMPS"", ""jsrs_soundmod_boats"", ""jsrs_soundmod_bullethits"", ""jsrs_soundmod_complete_edition_soundfiles"", ""jsrs_soundmod_complete_edition"", ""jsrs_soundmod_environment"", ""jsrs_soundmod_explosions"", ""jsrs_soundmod_framework"", ""jsrs_soundmod_helicopters"", ""jsrs_soundmod_landvehicles"", ""jsrs_soundmod_movement"", ""jsrs_soundmod_sonic_cracks"", ""jsrs_soundmod_weapons"", ""Kimi_102_Weapons_Wipeout"", ""Kimi_HMDs_Helos"", ""Kimi_HMDs_Wipeout"", ""Kimi_UI"", ""Kimi_Weapons_Helos"", ""KKA3_ACE_Extension_Anim_A2"", ""KKA3_ACE_Extension_Anim_dire"", ""KKA3_ACE_Extension_Anim"", ""MIRA_Vehicle_Medical"", ""mrb_a3_airvisibility"", ""mrb_a3_seavesselvisibility"", ""mrb_a3_vehiclevisibility"", ""msd_fastndeadly"", ""msd_ghostrecon"", ""OPTRE_JSRS"", ""PDT_ENVG"", ""PH_TacReady"", ""PH_TacSwap"", ""PLP_LaserBeam"", ""PLP_MapTools"", ""PLP_VTOLHoverController"", ""Radio_Animations"", ""SFX_Project_Remastered"", ""tfar_ace_extended_main"", ""thinkfast"", ""UAV_Turret_Markers"", ""UPSL_aime_change_ammo"", ""UPSL_aime_group"", ""UPSL_aime_inventory"", ""UPSL_aime_uav_terminal"", ""UPSL_aime_vehicle_controls"", ""UPSL_aime_vehicle_seats"", ""UPSL_aime"", ""UTGX_Compass"", ""Webs_Footsteps"", ""WP_Mod"", ""ZEI"", ""zeus_additions_main"", ""compositions_a3"", ""viewDistance_TAW"", ""ZECCUP"", ""3denEnhanced"", ""dwyl_main"", ""rwyl_main"", ""Vile_HUD"", ""PLP_LadderTweak"", ""hal_AutoPilot"", ""CHVD""]";
+force force ace_common_checkPBOsWhitelist = "[""cba_settings_userconfig"", ""bettinv_main_ace"", ""A3TI"", ""ASAAYU_ACE_MEDICAL_ASSISTANT"", ""athena"", ""bettinv_main"", ""CHTR_TFAR_Setter"", ""CrowsZA"", ""Darth_Potatos_Building_Templates"", ""DIS_Enhanced_Gps"", ""DIS_enhanced_map_ace"", ""DNI_ZeusFPSMonitor"", ""DXX_COMPS"", ""jsrs_soundmod_boats"", ""jsrs_soundmod_bullethits"", ""jsrs_soundmod_complete_edition_soundfiles"", ""jsrs_soundmod_complete_edition"", ""jsrs_soundmod_environment"", ""jsrs_soundmod_explosions"", ""jsrs_soundmod_framework"", ""jsrs_soundmod_helicopters"", ""jsrs_soundmod_landvehicles"", ""jsrs_soundmod_movement"", ""jsrs_soundmod_sonic_cracks"", ""jsrs_soundmod_weapons"", ""Kimi_102_Weapons_Wipeout"", ""Kimi_HMDs_Helos"", ""Kimi_HMDs_Wipeout"", ""Kimi_UI"", ""Kimi_Weapons_Helos"", ""KKA3_ACE_Extension_Anim_A2"", ""KKA3_ACE_Extension_Anim_dire"", ""KKA3_ACE_Extension_Anim"", ""MIRA_Vehicle_Medical"", ""mrb_a3_airvisibility"", ""mrb_a3_seavesselvisibility"", ""mrb_a3_vehiclevisibility"", ""msd_fastndeadly"", ""msd_ghostrecon"", ""OPTRE_JSRS"", ""PDT_ENVG"", ""PH_TacReady"", ""PH_TacSwap"", ""PLP_LaserBeam"", ""PLP_MapTools"", ""PLP_VTOLHoverController"", ""Radio_Animations"", ""SFX_Project_Remastered"", ""tfar_ace_extended_main"", ""thinkfast"", ""UAV_Turret_Markers"", ""UPSL_aime_change_ammo"", ""UPSL_aime_group"", ""UPSL_aime_inventory"", ""UPSL_aime_uav_terminal"", ""UPSL_aime_vehicle_controls"", ""UPSL_aime_vehicle_seats"", ""UPSL_aime"", ""UTGX_Compass"", ""Webs_Footsteps"", ""WP_Mod"", ""ZEI"", ""zeus_additions_main"", ""compositions_a3"", ""viewDistance_TAW"", ""ZECCUP"", ""3denEnhanced"", ""dwyl_main"", ""rwyl_main"", ""Vile_HUD"", ""PLP_LadderTweak"", ""hal_AutoPilot"", ""CHVD"", ""improved_ace_arsenal_category_main""]";
 ace_common_displayTextColor = [0,0,0,0.1];
 ace_common_displayTextFontColor = [1,1,1,1];
 ace_common_epilepsyFriendlyMode = false;
@@ -1216,6 +1216,83 @@ force grad_trenches_functions_timeoutToDecay = 7200;
 force grad_trenches_functions_vehicleEnvelopeDamageMultiplier = 1;
 force grad_trenches_functions_vehicleEnvelopeDigTime = 240;
 force grad_trenches_functions_vehicleEnvelopeRemovalTime = -1;
+
+// Improved ACE Arsenal Category
+improved_ace_arsenal_category_main_enableMedicalTab = true;
+improved_ace_arsenal_category_main_enableSurvivalTab = true;
+improved_ace_arsenal_category_main_enableToolTab = true;
+improved_ace_arsenal_category_main_medicalTabItemsKATSetting = "[
+""Attachable_Helistretcher"",
+""kat_aatKit"",""kat_accuvac"",""kat_AED"",""kat_X_AED"",""kat_crossPanel"",
+""kat_chestSeal"",""kat_larynx"",""kat_guedel"",""kat_Pulseoximeter"",""kat_stethoscope"",
+""kat_scalpel"",""kat_retractor"",""kat_clamp"",""kat_plate"",""kat_vacuum"",
+""kat_bloodIV_O"",""kat_bloodIV_A"",""kat_bloodIV_AB"",""kat_bloodIV_B"",
+""kat_bloodIV_O_N"",""kat_bloodIV_A_N"",""kat_bloodIV_AB_N"",""kat_bloodIV_B_N"",
+""kat_bloodIV_O_500"",""kat_bloodIV_A_500"",""kat_bloodIV_AB_500"",""kat_bloodIV_B_500"",
+""kat_bloodIV_O_N_500"",""kat_bloodIV_A_N_500"",""kat_bloodIV_AB_N_500"",""kat_bloodIV_B_N_500"",
+""kat_bloodIV_O_250"",""kat_bloodIV_A_250"",""kat_bloodIV_AB_250"",""kat_bloodIV_B_250"",
+""kat_bloodIV_O_N_250"",""kat_bloodIV_A_N_250"",""kat_bloodIV_AB_N_250"",""kat_bloodIV_B_N_250"",
+""KAT_Empty_bloodIV_250"",""KAT_Empty_bloodIV_500"",
+""kat_CarbonateItem"",""kat_PainkillerItem"",""kat_IV_16"",""kat_IO_FAST"",""kat_naloxone"",""kat_EACA"",""kat_TXA"",
+""kat_norepinephrine"",""kat_phenylephrine"",""kat_nitroglycerin"",""kat_amiodarone"",""kat_lidocaine"",""kat_atropine"",
+""kat_ketamine"",""kat_fentanyl"",""kat_nalbuphine"",""kat_lorazepam"",""kat_flumazenil"",""kat_etomidate"",
+""kat_phenylephrine_inject""
+]";
+improved_ace_arsenal_category_main_medicalTabItemsSetting = "[
+""FirstAidKit"",
+""Medikit"",
+""ACE_elasticBandage"",
+""ACE_packingBandage"",
+""ACE_quikclot"",
+""ACE_fieldDressing"",
+""ACE_bloodIV"",
+""ACE_bloodIV_500"",
+""ACE_bloodIV_250"",
+""ACE_plasmaIV"",
+""ACE_plasmaIV_500"",
+""ACE_plasmaIV_250"",
+""ACE_salineIV"",
+""ACE_salineIV_500"",
+""ACE_salineIV_250"",
+""ACE_epinephrine"",
+""ACE_morphine"",
+""ACE_adenosine"",
+""ACE_splint"",
+""ACE_tourniquet"",
+""ACE_bodyBag"",
+""ACE_surgicalKit"",
+""ACE_personalAidKit"", ""Biofoam"", ""Corpsman_Biofoam"", ""Emergency_MedKit"", ""Ibuprofen"", ""Medigel"", ""Corpsman_Medigel"", ""2500mL_PlasmaIV"" 
+]";
+improved_ace_arsenal_category_main_survivalTabItemsSetting = "[
+""ACE_Banana"",
+""ACE_Can_Franta"",
+""ACE_Can_RedGull"",
+""ACE_Can_Spirit"",
+""ACE_Canteen"",
+""ACE_Canteen_Empty"",
+""ACE_Canteen_Half"",
+""ACE_Humanitarian_Ration"",
+""ACE_MRE_BeefStew"",
+""ACE_MRE_ChickenTikkaMasala"",
+""ACE_MRE_ChickenHerbDumplings"",
+""ACE_MRE_CreamChickenSoup"",
+""ACE_MRE_CreamTomatoSoup"",
+""ACE_MRE_LambCurry"",
+""ACE_MRE_MeatballsPasta"",
+""ACE_MRE_SteakVegetables"",
+""ACE_Sunflower_Seeds"",
+""ACE_WaterBottle"",
+""ACE_WaterBottle_Empty"",
+""ACE_WaterBottle_Half""
+]";
+improved_ace_arsenal_category_main_toolTabItemsSetting = "[
+""MineDetector"",
+""ToolKit"",
+""ACE_DefusalKit"",
+""ACE_EntrenchingTool"",
+""ACE_Fortify"",
+""ACE_wirecutter"", ""tsp_lockpick"", ""tsp_paperclip"", ""Ace_CableTie"", ""Ace_Cellphone"", ""Ace_HuntIR_monitor"", ""ACE_IR_Strobe_Item"", ""ACE_M26_Clacker"", ""ACE_Clakcer"", ""ACE_Flashlight_XL50"", ""ACE_MapTools"", ""ACE_UAVBattery"", ""ACE_Tripod"", ""VES_TacSpraycan"", ""ItemcTabHCam"", ""MRH_BluForTransponder"", ""MRH_FoldedSatcomAntenna"", ""MRH_TacticalDisplay""
+]";
 
 // Improved Melee System (Client Settings)
 IMS_CustomCamer_Y = 3;
