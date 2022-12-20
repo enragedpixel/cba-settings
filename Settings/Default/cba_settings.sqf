@@ -1221,7 +1221,7 @@ force grad_trenches_functions_vehicleEnvelopeRemovalTime = -1;
 improved_ace_arsenal_category_main_enableMedicalTab = true;
 improved_ace_arsenal_category_main_enableSurvivalTab = true;
 improved_ace_arsenal_category_main_enableToolTab = true;
-improved_ace_arsenal_category_main_medicalTabItemsKATSetting = "[
+force force improved_ace_arsenal_category_main_medicalTabItemsKATSetting = "[
 ""Attachable_Helistretcher"",
 ""kat_aatKit"",""kat_accuvac"",""kat_AED"",""kat_X_AED"",""kat_crossPanel"",
 ""kat_chestSeal"",""kat_larynx"",""kat_guedel"",""kat_Pulseoximeter"",""kat_stethoscope"",
@@ -1238,7 +1238,7 @@ improved_ace_arsenal_category_main_medicalTabItemsKATSetting = "[
 ""kat_ketamine"",""kat_fentanyl"",""kat_nalbuphine"",""kat_lorazepam"",""kat_flumazenil"",""kat_etomidate"",
 ""kat_phenylephrine_inject""
 ]";
-improved_ace_arsenal_category_main_medicalTabItemsSetting = "[
+force force improved_ace_arsenal_category_main_medicalTabItemsSetting = "[
 ""FirstAidKit"",
 ""Medikit"",
 ""ACE_elasticBandage"",
@@ -1263,7 +1263,7 @@ improved_ace_arsenal_category_main_medicalTabItemsSetting = "[
 ""ACE_surgicalKit"",
 ""ACE_personalAidKit"", ""Biofoam"", ""Corpsman_Biofoam"", ""Emergency_MedKit"", ""Ibuprofen"", ""Medigel"", ""Corpsman_Medigel"", ""2500mL_PlasmaIV"" 
 ]";
-improved_ace_arsenal_category_main_survivalTabItemsSetting = "[
+force force improved_ace_arsenal_category_main_survivalTabItemsSetting = "[
 ""ACE_Banana"",
 ""ACE_Can_Franta"",
 ""ACE_Can_RedGull"",
@@ -1285,7 +1285,7 @@ improved_ace_arsenal_category_main_survivalTabItemsSetting = "[
 ""ACE_WaterBottle_Empty"",
 ""ACE_WaterBottle_Half""
 ]";
-improved_ace_arsenal_category_main_toolTabItemsSetting = "[
+force force improved_ace_arsenal_category_main_toolTabItemsSetting = "[
 ""MineDetector"",
 ""ToolKit"",
 ""ACE_DefusalKit"",
